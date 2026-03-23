@@ -1,0 +1,31 @@
+{
+  "name": "tsukimi",
+  "version": "0.1.0",
+  "description": "Tsukimi is a Server Side Render library for Amateras.",
+  "module": "index.ts",
+  "type": "module",
+  "author": {
+    "name": "defaultkavy",
+    "email": "defaultkavy@gmail.com",
+    "url": "https://github.com/defaultkavy"
+  },
+  "bugs": {
+    "url": "https://github.com/defaultkavy/tsukimi/issues"
+  },
+  "homepage": "https://github.com/defaultkavy/tsukimi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "esbuild": "^0.27.2",
+    "rollup": "^4.55.2",
+    "vite": "^7.3.1"
+  },
+  "imports": {},
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}
